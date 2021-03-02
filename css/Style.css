@@ -75,6 +75,8 @@ img {
   color: var(--main-text);
 
   position: relative;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .nav-link::after, */
@@ -124,6 +126,8 @@ img {
   display: flex;
   align-items: center;
   white-space: nowrap;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .envelope {
@@ -383,6 +387,8 @@ img {
   text-align: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-thumb:hover,
@@ -434,6 +440,8 @@ img {
   height: 44px;
   color: var(--icon-grey);
   border-radius: 50%;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list a:hover,
@@ -486,6 +494,8 @@ img {
   border: 1px solid var(--icon-grey);
   color: var(--icon-grey);
   border-radius: 4px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list a:hover,
@@ -601,6 +611,8 @@ img {
   background-color: var(--white-op10);
   color: var(--white-text);
   border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-list a:hover,
@@ -614,6 +626,8 @@ img {
   fill: currentColor;
   padding-top: 10px;
   margin-left: 11px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-list svg:hover,
@@ -645,6 +659,8 @@ img {
   border-radius: 4px;
   margin-right: 8px;
   padding: 6px 22px;
+
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button {
@@ -689,6 +705,8 @@ img {
   width: 370px;
   text-align: left;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img {
